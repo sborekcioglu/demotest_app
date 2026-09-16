@@ -44,7 +44,7 @@ jobs:
         - name: Run tests
           run: pytest
   
-   security:
+  security:
       runs-on: ubuntu-latest
       needs: test
       steps:
