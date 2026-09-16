@@ -1,4 +1,4 @@
-name: CI
+name: MYCI
 
 on:
   push:
@@ -18,7 +18,7 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-verison: "3.12"
+          python-version: "3.12"
 
       - name: Install pytest
         run: pip install pytest
